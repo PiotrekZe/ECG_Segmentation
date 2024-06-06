@@ -14,13 +14,13 @@ class ConvBlock1D(nn.Module):
             nn.BatchNorm1d(out_channels),
             nn.ReLU(inplace=True)
         )
-        self.attention1 = ChannelAttention(out_channels)
-        self.attention2 = SpatialAttention()
+        # self.attention1 = ChannelAttention(out_channels)
+        # self.attention2 = SpatialAttention()
 
     def forward(self, x):
         x = self.conv(x)
-        x = self.attention1(x) * x
-        x = self.attention2(x) * x
+        # x = self.attention1(x) * x
+        # x = self.attention2(x) * x
         return x
 
 
