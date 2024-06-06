@@ -1,0 +1,13 @@
+{
+  "model": {
+    "learning_rate": 1e-4,
+    "weight_decay": 1e-5,
+    "batch_size": 64,
+    "epochs": 5,
+    "device": "cuda"
+  },
+  "file": {
+    "path": "E:/AI/Croatian Fish/croatianFishDataset1-0Dir",
+    "path_to_save": "E:/Projects/ECG_Segmentation/results"
+  }
+}
