@@ -10,13 +10,13 @@ The TransUNet architecture, introduced by Chen et al. in 2021 ([Click for paper!
 
 ### Focal Loss
 
-Instead of treating this problem purely as a segmentation task, I also drew from object detection methods by implementing Focal Loss, as proposed by Lin et al. in 2017 ([Click for paper!](https://arxiv.org/pdf/1708.02002v2)). ZFocal Loss is designed to address class imbalance, making it a perfect fit for this task, where certain heartbeat types occur far more frequently than others.
+Instead of treating this problem purely as a segmentation task, I also drew from object detection methods by implementing Focal Loss, as proposed by Lin et al. in 2017 ([Click for paper!](https://arxiv.org/pdf/1708.02002v2)). Focal Loss is designed to address class imbalance, making it a perfect fit for this task, where certain heartbeat types occur far more frequently than others.
 
 ### Neural Architecutre Search (NAS)
 
 To further optimize the model, I integrated a Neural Architecture Search (NAS) method, automating the process of selecting the best architecture for this dataset. I used SynFlow, a data-free scoring method that evaluates model importance without backpropagation or actual training. NAS optimized parameters such as the number of transformer layers, attention heads, encoder depth, and feature map sizes, ultimately finding the most effective architecture for ECG segmentation.
 
-To-do List:
+#### To-do List:
 - Implement additional popular CNNs in 1D
 - Explore other architectures for segmentation tasks
 - Test on other medical time series data (e.g., EEG)
