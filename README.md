@@ -16,7 +16,7 @@ Instead of treating this problem purely as a segmentation task, I also drew from
 
 To further optimize the model, I integrated a Neural Architecture Search (NAS) method, automating the process of selecting the best architecture for this dataset. I used SynFlow, a data-free scoring method that evaluates model importance without backpropagation or actual training. NAS optimized parameters such as the number of transformer layers, attention heads, encoder depth, and feature map sizes, ultimately finding the most effective architecture for ECG segmentation.
 
-To-do List:
+#### To-do List:
 - Implement additional popular CNNs in 1D
 - Explore other architectures for segmentation tasks
 - Test on other medical time series data (e.g., EEG)
