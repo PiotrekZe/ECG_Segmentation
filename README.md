@@ -10,7 +10,7 @@ The TransUNet architecture, introduced by Chen et al. in 2021 ([Click for paper!
 
 ### Focal Loss
 
-Instead of treating this problem purely as a segmentation task, I also drew from object detection methods by implementing Focal Loss, as proposed by Lin et al. in 2017 ([Click for paper!](https://arxiv.org/pdf/1708.02002v2)). ZFocal Loss is designed to address class imbalance, making it a perfect fit for this task, where certain heartbeat types occur far more frequently than others.
+Instead of treating this problem purely as a segmentation task, I also drew from object detection methods by implementing Focal Loss, as proposed by Lin et al. in 2017 ([Click for paper!](https://arxiv.org/pdf/1708.02002v2)). Focal Loss is designed to address class imbalance, making it a perfect fit for this task, where certain heartbeat types occur far more frequently than others.
 
 ### Neural Architecutre Search (NAS)
 
