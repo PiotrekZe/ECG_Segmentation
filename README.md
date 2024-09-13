@@ -4,7 +4,7 @@ This repository has implementation of ECG signal segmentation with adapted for 1
 
 ### TransUNet
 
-That architecutre proposed by Chen et al. in 2021 ([Click for paper!]([Chen](https://arxiv.org/pdf/2102.04306)) is simply but effective modification of well-known U-Net arehictecutre
+That architecutre proposed by Chen et al. in 2021 ([Click for paper!](https://arxiv.org/pdf/2102.04306)) is simply but effective modification of well-known U-Net arehictecutre
 
 
 
